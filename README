@@ -1,0 +1,5 @@
+### backend
+```
+$ serverless create --template aws-nodejs-typescript
+$ npm install serverless-offline --save-dev
+```
