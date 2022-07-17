@@ -4,6 +4,9 @@
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
   "scripts": {
+    "serve": "node_modules/.bin/serverless offline --httpPort 4000",
+    "deploy": "./node_modules/.bin/serverless deploy",
+    "sls-remove": "./node_modules/.bin/serverless remove",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
